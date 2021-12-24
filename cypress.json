@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "ignoreTestFiles": ["**/examples/*.spec.js", "**/mockData.js"],
+  "video": false,
+  "experimentalFetchPolyfill": true,
+  "viewportWidth": 1920,
+  "viewportHeight": 1080
+}

@@ -1,0 +1,58 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #273244;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.btn {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.25rem;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #1b2431;
+  font-family: "Poppins", sans-serif;
+  transition: 150ms ease-in-out;
+  transition-property: color background-color;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #1b2431;
+  background-color: white;
+}
+
+.btn.is_warning {
+  border: 1px solid rgba(255, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn.is_warning:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+
+fieldset.horizontal {
+  border: none;
+  display: grid;
+  grid-template-rows: none;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+}
+
+.error_message {
+  color: rgb(197, 32, 32);
+  font-family: "Poppins", sans-serif;
+}

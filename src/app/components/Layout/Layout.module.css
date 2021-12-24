@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  flex: 1;
+  grid-template-columns: 250px auto;
+  grid-template-rows: 75px auto;
+  grid-template-areas:
+    "header header"
+    "sidebar content";
+}
+
+.content {
+  grid-area: content;
+  background-color: #1b2431;
+  padding: 24px;
+  border-radius: 8px 0 0 0;
+  overflow: auto;
+}

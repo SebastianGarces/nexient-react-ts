@@ -1,0 +1,31 @@
+.form {
+  padding: 2rem;
+  background-color: #273244;
+  height: min-content;
+  width: min-content;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.form fieldset {
+  border: none;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-gap: 0.25rem;
+  padding: 0;
+}
+
+.form fieldset label {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.form fieldset input,
+.form fieldset select {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,29 @@
+.item_container {
+	display: grid;
+	grid-template-columns: repeat();
+}
+
+.menu_item,
+.sub_menu_item {
+	text-decoration: none;
+	color: rgba(253, 253, 253, 0.5);
+	display: block;
+}
+
+.menu_item {
+	padding: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.menu_item:hover {
+	color: white;
+}
+
+.sub_menu_item {
+	padding: 1rem;
+	padding-left: 3rem;
+}
+
+.sub_menu_item:hover {
+	color: white;
+}
